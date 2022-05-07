@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validar CPF</title>
+    <link href="style.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <div>
+            <h1> Validador de CPF</h1>
+            <h3>Através deste simples algoritmo, veremos diversos recursos e habilidades da linguagem JavaScript</h3>
+        </div>
+    </header>
+    <main>
+        <div class="dados">
+            <h2>CPF</h2>
+            <input id="cpf_digitado" type="text" placeholder="Insira seu CPF">
+            <button onclick="validacao()">Validar</button>
+        </div>
+        <div id="success" style="display: none;" role="alert"> 
+            <strong>OBA!</strong> Seu CPF é válido!
+        </div>
+        <div id="error" style="display: none;" role="alert"> 
+            <strong>OPS!</strong> Seu CPF é inválido!
+        </div>
+    </main>
+</body>
+
+<script src="./script.js"></script>
+
+</html>

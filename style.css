@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: rgb(72, 63, 63);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    background: #12c2e9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #62f1d5, #b6d6de);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #6bb2f0, white); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+h1{
+    margin: 100px;
+    text-align: center;
+}
+
+.dados{
+    margin:100px;
+    display: flex;
+    justify-content: center;
+}
+
+h3{
+    margin-left: 10px;
+    text-align: center;
+}
+
+button {
+    vertical-align: middle;
+    font-size: large;
+    cursor: pointer;
+    box-shadow: 2px 2px 0 0  #265680;
+    border-radius: 5px;
+    transition: 300ms;
+}
+
+button :hover {
+    background-position: left;
+    background-size: 100% 50%;
+}
+
+button :active {
+    box-shadow: 0px 0px 0px 0px  #26568000, inset 3px 3px 3px #265680;
+    transform: translate(3px, 3px);
+    transition: 200ms;
+}
+
+input {
+    vertical-align: middle;
+    margin-inline: 20px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: large;
+}
