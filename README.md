@@ -5,6 +5,7 @@
 
 ><h2>About</h2>
 >This project is part of my repository for applying techniques and training the codes.
+>this app aims to take a cpf and check if it's valid.
 >
 > Main languages: HTML, CSS, JavaScript.
 ><h2>My Project</h2>
